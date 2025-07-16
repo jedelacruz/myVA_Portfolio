@@ -39,7 +39,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             className="text-xl font-bold bg-gradient-to-r from-neon-cyan to-white bg-clip-text text-transparent"
           >
-            JED.dev
+            JE.dev
           </button>
 
           {/* Desktop Navigation */}

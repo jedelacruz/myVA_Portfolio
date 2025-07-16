@@ -5,41 +5,24 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Web Platform",
-      description: "Full-stack e-commerce solution built with PHP and MySQL, featuring user authentication, shopping cart, and payment integration.",
-      tech: ["PHP", "MySQL", "HTML/CSS", "JavaScript"],
+      title: "JEAI",
+      description: "JEAI is a free AI-powered platform made in Gemini for fast, high-quality text generation and editing. It features a responsive, user-friendly interface with a built-in text editor for easy writing and content creation.",
+      tech: ["TypeScript", "Next.js", "Tailwind CSS", "Clerk", "Gemini"],
       stars: 12,
       forks: 5,
-      live: "#",
-      repo: "https://github.com/jedelacruz"
+      live: "https://jeai.vercel.app/",
+      repo: "https://github.com/jedelacruz/Jeai"
     },
     {
-      title: "Task Management Dashboard",
-      description: "Modern task management application with real-time updates, built using JavaScript and responsive design principles.",
-      tech: ["JavaScript", "HTML/CSS", "Local Storage"],
+      title: "GradeQuest",
+      description: "GradeQuest is a 2D platformer game that I've developed using Godot (GDScript). It combines engaging gameplay mechanics with a student-inspired theme, showcasing creativity and technical skills.",
+      tech: ["Godot Engine", "GDScript", "Game Design",  "Game Art", 'Game Audio'],
       stars: 8,
       forks: 3,
-      live: "#",
-      repo: "https://github.com/jedelacruz"
+      live: "https://jedelacruz.itch.io/gradequest",
+      repo: "https://github.com/jedelacruz/GradeQuest"
     },
-    {
-      title: "Python Data Analyzer",
-      description: "Data analysis tool that processes CSV files and generates insightful reports with visualization capabilities.",
-      tech: ["Python", "Pandas", "Matplotlib"],
-      stars: 15,
-      forks: 7,
-      live: "#",
-      repo: "https://github.com/jedelacruz"
-    },
-    {
-      title: "Customer Support Chatbot",
-      description: "AI-powered chatbot designed for customer service, leveraging my experience in healthcare support.",
-      tech: ["Python", "NLP", "Machine Learning"],
-      stars: 20,
-      forks: 9,
-      live: "#",
-      repo: "https://github.com/jedelacruz"
-    }
+   
   ];
 
   return (
@@ -118,8 +101,8 @@ const Projects = () => {
                   className="border-neon-cyan/50 text-neon-cyan hover:bg-neon-cyan hover:text-black"
                   asChild
                 >
-                  <a href={project.repo} target="_blank" rel="noopener noreferrer">
-                    View Code
+                  <a href={project.live} target="_blank" rel="noopener noreferrer">
+                    View Live
                   </a>
                 </Button>
               </div>

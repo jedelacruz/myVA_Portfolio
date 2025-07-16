@@ -14,16 +14,15 @@ const Hero = () => {
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-neon-cyan to-white bg-clip-text text-transparent">
-            Jed Elacruz
+            Je Dela Cruz
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-4">
             IT Student & Healthcare Support Representative
           </p>
           
-          <p className="text-lg md:text-xl text-neon-cyan font-medium mb-8 animate-glow">
-            Aspiring Virtual Assistant with Tech & Support Background
-          </p>
+          
+      
           
           <p className="text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed">
             Combining technical expertise with exceptional communication skills to deliver 
@@ -34,7 +33,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Button 
             size="lg" 
-            className="bg-neon-cyan hover:bg-neon-cyan/80 text-black font-semibold px-8 py-3 neon-glow transition-all duration-300"
+            className="bg-cyan-400 hover:bg-cyan-500 text-black font-semibold px-8 py-3 shadow-lg shadow-cyan-400/25 transition-all duration-300 w-48"
           >
             <Download className="mr-2 h-5 w-5" />
             Download Resume
@@ -43,7 +42,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-black px-8 py-3 transition-all duration-300"
+            className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black px-8 py-3 transition-all duration-300 w-48"
             onClick={() => scrollToSection('contact')}
           >
             <Mail className="mr-2 h-5 w-5" />

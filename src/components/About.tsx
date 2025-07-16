@@ -13,8 +13,8 @@ const About = () => {
         <div className="glass-card p-8 md:p-12 neon-glow">
           <div className="text-center">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-8">
-              I'm a dedicated first-year IT student with hands-on experience in customer support 
-              at Alorica, specializing in healthcare customer service. My unique blend of technical 
+              I'm a dedicated second-year IT student with hands-on experience in customer support 
+             , specializing in healthcare customer service. My unique blend of technical 
               knowledge and exceptional communication skills positions me perfectly for the virtual 
               assistant industry.
             </p>
