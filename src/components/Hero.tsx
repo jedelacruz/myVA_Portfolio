@@ -31,13 +31,19 @@ const Hero = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button 
-            size="lg" 
-            className="bg-cyan-400 hover:bg-cyan-500 text-black font-semibold px-8 py-3 shadow-lg shadow-cyan-400/25 transition-all duration-300 w-48"
+          <a 
+            href="/certifications/Resume_DelaCruzJanEmmanuel.pdf" 
+            download
+            className="w-48"
           >
-            <Download className="mr-2 h-5 w-5" />
-            Download Resume
-          </Button>
+            <Button 
+              size="lg" 
+              className="bg-cyan-400 hover:bg-cyan-500 text-black font-semibold px-8 py-3 shadow-lg shadow-cyan-400/25 transition-all duration-300 w-full"
+            >
+              <Download className="mr-2 h-5 w-5" />
+              Download Resume
+            </Button>
+          </a>
           
           <Button 
             size="lg" 
@@ -71,11 +77,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-neon-cyan rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-neon-cyan rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
+      {/* Remove mouse scroll icon at the bottom */}
     </section>
   );
 };
